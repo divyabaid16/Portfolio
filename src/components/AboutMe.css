@@ -1,0 +1,17 @@
+#about{
+    object-fit: cover;
+}
+
+.about-me{
+    margin: auto;
+    margin: 16px auto;
+}
+
+.profile-pic-warpper{
+    margin: auto;
+    text-align: center;
+}
+
+.profile-pic{
+    max-width: 15em;
+}

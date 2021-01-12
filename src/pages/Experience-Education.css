@@ -1,0 +1,29 @@
+.edu-image {
+    height: 4em;
+}
+
+.vertical-timeline-element-title{
+    font-size: 1em;
+}
+
+.vertical-timeline-element-subtitle{
+    font-size: 0.75em;
+}
+
+.vertical-timeline-element-icon{
+    display: none;
+}
+ .vertical-timeline-element-content{
+     background-color: inherit;
+ }
+
+ .vertical-timeline::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: yellow;
+  }
