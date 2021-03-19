@@ -43,7 +43,6 @@ const MyNavbar = (props) => {
                 <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#experience">Experience</Nav.Link>
                 <Nav.Link href="#education">Education</Nav.Link>
-                <Nav.Link href="#blogs">Blogs</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

@@ -13,7 +13,7 @@ import ExperienceEducation from "./pages/Experience-Education";
 import dark from "./assets/img/carousal/dark.jfif";
 import light from "./assets/img/carousal/light.jfif";
 import Image from 'react-bootstrap/Image'
-import Particles from 'react-particles-js';
+import Particles from "react-tsparticles";
 import { particlesOptionsDark } from "./particlesOptionsDark";
 import { particlesOptionsLight } from "./particlesOptionsLight";
 
@@ -35,20 +35,17 @@ const App = () => {
             />
             
             <Image id = "home" className = "custom-img" src={theme === 'light' ? light : dark} fluid />
-            
             <Particles
-              className="particles particles-box"
-              params={theme === 'light' ? particlesOptionsLight : particlesOptionsDark}
+            className="particles particles-box"
+              id="tsparticles"
+              options={theme === 'light' ? particlesOptionsLight : particlesOptionsDark}
             />
             <MyTitle/>
             <Fade duration={1000} right><AboutMe/></Fade>
-            <div className = "skills"><Fade duration={2000}><Skills/></Fade></div>
-            {/* <Education 
-              theme = {theme}
-            /> */}
+            <div className = "skills"><Fade duration={1000}><Skills/></Fade></div>
             <ExperienceEducation/>
           {/* <button onClick={themeToggler}>Switch Theme</button> */}
-          HEY!!!!!!
+          <div className="text-center end">THANK YOU FOR VISITING</div>
         </div>
       </div>
     </ThemeProvider>
