@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col'
 
 import DPS from "../assets/img/education/dps.png";
 import LNMIIT from "../assets/img/education/lnmiit.png";
+import EXPEDIA from "../assets/img/experience/expedia.png";
 import MICROSOFT from "../assets/img/experience/microsoft.png";
 import POSTMAN from "../assets/img/experience/postman.png";
 import GCI from "../assets/img/experience/gci.png";
