@@ -18,6 +18,13 @@ import './Experience-Education.css';
 
 export const experience = [
     {
+        "icon": EXPEDIA,
+        "title": "Expedia",
+        "subtitle": "Software Development Engineer",
+        "period": "May'21 - Present",
+        "technology": "Aws, Java, Spring"
+    },
+    {
         "icon": MICROSOFT,
         "title": "Microsoft",
         "subtitle": "Associate Consultant",
