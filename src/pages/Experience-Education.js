@@ -29,7 +29,7 @@ export const experience = [
         "icon": MICROSOFT,
         "title": "Microsoft",
         "subtitle": "Associate Consultant",
-        "period": "Aug'20 - Present",
+        "period": "Aug'20 - May'21",
         "technology": "SQL, Azure, PowerBI, Databricks, Python"
     },
     {
